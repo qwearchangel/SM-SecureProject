@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/ejb/UserEJB.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/beans/LoginBean.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/models/ForumPosts.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/models/Users.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/web/login.xhtml</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/web/user/index.xhtml</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/ejb/GroupEJB.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/beans/LogoutBean.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/web/admin/index.xhtml</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/encryption_util/RandomSaltGenerator.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/encryption_util/EncryptionModule.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/models/Groups.java</file>
+            <file>file:/C:/Users/Filip/Documents/NetBeansProjects/SM-SecureProject/src/java/com/filipferm/utils/SessionFilter.java</file>
+        </group>
+    </open-files>
+</project-private>

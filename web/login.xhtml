@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"     
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Login Page</title>
+    </h:head>
+    <h:body>
+        <h1>Login Page</h1>
+        <h:form id="login_form" rendered="#{not sessionFilter.checkUser('')}" >
+            <h:panelGrid id="login_panelgrid" columns="3">
+                <h:outputLabel for="username" value="Username:" />
+                <h:inputText id="username" value="#{loginBean.username}" required="true" />
+                <h:message for="username" />
+                <h:outputLabel for="password" value="Password:" />
+                <h:inputSecret id="password" value="#{loginBean.password}" required="true" />
+                <h:message for="password" />
+                <h:commandButton value="Login" action="#{loginBean.login}" />
+                <h:messages globalOnly="true" />
+            </h:panelGrid>
+        </h:form>
+        
+        <h:form rendered="#{sessionFilter.loggedIn()}" >
+            <p>You are allready logged in!</p>
+            <p>Do you want to <h:commandLink action="#{logoutBean.logout()}" value="LOGOUT"/>?</p>
+        </h:form>
+
+    </h:body>
+</html>

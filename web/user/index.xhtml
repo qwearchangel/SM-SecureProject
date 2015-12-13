@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"     
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>User Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </h:head>
+    <h:body>
+        <h:form rendered="#{sessionFilter.checkUser('user')}">
+            <h1>Welcome to the user page</h1>
+            <p>To go to admin page press <a href="../admin/index.xhtml">this link</a></p>
+            <p>To Logout press <h:commandLink action="#{logoutBean.logout()}" value="this link"/></p>
+        </h:form>
+        <h:form rendered="#{not sessionFilter.checkUser('')}">
+            <p>You are not logged in or have the right cridetials for this page!</p>
+            <p>Please go back to <a href="/SM-SecureProject/faces/login.xhtml">Login Page</a></p>
+        </h:form>
+    </h:body>
+</html>
